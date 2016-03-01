@@ -1,0 +1,32 @@
+// this is a comment, any lines that start with //
+// (and blank lines) should be ignored
+
+[StaffUser data]
+// data is staffID, surname, libraryUserID
+SU001468, Newton, LU077339
+SU002171, Aspin, LU072943
+SU001204, Harrup, LU078172
+SU001329, Vadera, LU073498
+SU003520, Blindell, LU074988
+SU001510, Meziane, LU077012
+
+[UGUser data]
+// data is courseCode, rollNumber, surname, libraryUserID
+CC1, 007677193, Smith, LU046641
+CC1, 007664961, Wilkinson, LU053284
+CC1, 007683011, Khan, LU048619
+CS2, 007650600, Rooney, LU045992
+CS2, 007554158, James, LU049908
+CSF, 007434294, Fielding, LU044735
+CS2, 007607094, Gerrard, LU047882
+CC1, 007324926, Russell, LU050599
+CSF, 007653006, Iqbal, LU053299
+
+[PGUser data]
+// data is supervisorID, rollNumber, surname, libraryUserID
+SU001329, 007603423, Yusaf, LU062492
+SU001510, 007499780, Topping, LU061758
+SU002171, 007664499, McGovern, LU062049
+SU001329, 007635098, Mohammed, LU060525
+SU001510, 007661790, Liu, LU063101
+SU002171, 007309049, Ahmed, LU061551

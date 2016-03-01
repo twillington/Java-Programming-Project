@@ -1,0 +1,71 @@
+// this is a comment, any lines that start with //
+// (and blank lines) should be ignored
+
+[Book data]
+// data is author, isbn, noOfPages, publisher, title, itemCode, cost, timesBorrowed, libraryUserID
+Barnes and Kolling, 9780131976290,480, Pearson, Objects First with Java, LM002411,3989,781,null
+Aho Sethi and Ullman, 9780201101942,795, Addison-Wesley, Compilers: Principles Techniques and Tools, LM002711,599,0, LU048619
+Harvey Paul and Jeffrey, 9780130622211,1568, Prentice Hall, C# How to Program, LM002876,4599,45, LU061758
+Muster, 9780072193145,1011, McGraw-Hill, Unix Made Easy: The Basics and Beyond (Made Easy), LM002468,6395,0,null
+Thomee, 9783540331216,370, Springer Verlag, Galerkin Finite Element Methods for Parabolic Problems, LM002153,4554,0,null
+
+
+[CD data]
+// data is artist, noOfTracks, playingTime, title, itemCode, cost, timesBorrowed, libraryUserID
+James Blunt,15,68, Back to Bedlam, LM003604,498,234,null
+Duffy,10,73, Rockferry, LM003553,898,90,NULL
+Adele,12,19,75, LM003580,798,87, LU045992
+Robert Plant and Alison Krauss,13,72, Raising Sand, LM003750,898,89, NULL
+Goldfrapp,10,72, Seventh Tree, LM003873,1299,9876, null
+Amy Winehouse,11,70, Back To Black, LM003698,698,8765,NULL
+Jack Johnson,15,67, Sleep Through The Static, LM003773,898,54,null
+ Mark Ronson,14,74, Version, LM003365,698,56, null
+Radiohead,10,75, In Rainbows , LM003604,798,6543, LU072943
+Nick Cave,11,68, Dig!!! Lazarus Dig!!!, LM003751,1199,90, null
+Nickelback,11,72, All the Right Reasons, LM003915,598,32, LU078172
+
+[DVD data]
+// data is director, playingTime, title, itemCode, cost, timesBorrowed, libraryUserID
+Chris Miller,92, Shrek The Third, LM004314,1026,900, null 
+Robert Zemeckis,114, Beowulf , LM004079,900,87, null
+Phyllida Lloyd,118,  Mamma Mia, LM004984,798,566,LU077339
+Joe Wright,130, Atonement, LM004720,1293,66,LU053299
+Andrew Adamson,125, The Chronicles of Narnia: Prince Caspian, LM004178,345,45,null
+
+
+[periodical data]
+// data is publicationDate, noOfPages, publisher, title, itemCode, cost, timesBorrowed, libraryUserID
+25-03-08,70, News International, The Times, LM005447,80,0, null
+26-03-08,70, News International, The Times, LM005002,80,0, null
+26-03-08,60, Associated Newspapers, Daily Mail, LM005177,40,0, NULL
+
+[StaffUser data]
+// data is staffID, surname, libraryID, itemCode
+SU001468, Newton, LU077339, LM004984
+SU002171, Aspin, LU072943, LM003771
+SU001204, Harrup, LU078172, LM003915
+SU001329, Vadera, LU073498, null
+SU003520, Blindell, LU074988, null
+SU001510, Meziane, LU077012, null
+
+[UGUser data]
+// data is courseCode, rollNumber, surname, libraryID, itemCode
+CC1, 007677193, Smith, LU046641, null
+CC1, 007664961, Wilkinson, LU053284, null
+CC1, 007683011, Khan, LU048619, LM002711
+CS2, 007650600, Rooney, LU045992, LM003580
+CS2, 007554158, James, LU046641, null
+CSF, 007434294, Fielding, LU044735, null
+CS2, 007607094, Gerrard, LU047882, null
+CC1, 007324926, Russell, LU050599, null
+CSF, 007653006, Iqbal, LU053299, LM004720
+
+[PGUser data]
+// data is supervisorID, rollNumber, surname, libraryID, itemCode
+SU002171, 007603423, Yusaf, LU062492, null
+SU001329, 007499780, Topping, LU061758, LM002876
+SU002171, 007664499, McGovern, LU062049, null
+SU001510, 007635098, Mohammed, LU060525, null
+SU001510, 007661790, Liu, LU063101, null
+SU001329, 007309049, Ahmed, LU061551, null
+

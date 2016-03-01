@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printDetails()
+comment0.text=\r\n\ This\ prints\ out\ the\ details\ of\ the\ object\r\n
+comment1.params=scanner
+comment1.target=void\ extractTokens(java.util.Scanner)
+comment1.text=\r\n\ This\ method\ is\ passed\ a\ scanner\ and\ sets\ the\ field\ variables\ as\ the\ tokens.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLibraryID()
+comment2.text=\r\n\ Accessor\ for\ field\ variable\r\n
+comment3.params=
+comment3.target=Library\ getLibrary()
+comment3.text=\r\n\ Accessor\ for\ field\ variable\r\n
+comment4.params=newLibrary
+comment4.target=void\ setLibrary(Library)
+comment4.text=\r\n\ Mutator\ for\ field\ variable\r\n
+comment5.params=libraryItem
+comment5.target=void\ borrowRequest(LibraryItem)
+comment5.text=\r\n\ This\ is\ a\ method\ which\ calls\ another\ method\ in\ library\ which\ allows\ for\ a\ user\ to\ borrow\ a\ item\r\n
+comment6.params=itemCode
+comment6.target=void\ returnRequest(java.lang.String)
+comment6.text=\r\n\ This\ is\ a\ method\ which\ calls\ another\ method\ in\ library\ which\ allows\ for\ a\ user\ to\ return\ a\ item\r\n
+comment7.params=itemCode
+comment7.target=void\ removeItemCode(java.lang.String)
+comment7.text=public\ String\ getItemCodes()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ for\ (String\ itemCode\ \:\ itemCodes)\r\n\ \ \ \ \ \ \ \ return\ itemCode;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ addItemCode(String\ itemcode)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ itemCodes.add(itemcode);\ \ \ \ \ \ \ \ \r\n}*
+numComments=8

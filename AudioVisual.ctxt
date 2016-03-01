@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getPlayingTime()
+comment0.text=\r\n\ Accessor\ method\ for\ playingTime\ field.\r\n
+comment1.params=
+comment1.target=void\ printDetails()
+comment2.params=scanner
+comment2.target=void\ extractTokens(java.util.Scanner)
+numComments=3

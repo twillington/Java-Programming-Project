@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printDetails()
+comment1.params=scanner
+comment1.target=void\ extractTokens(java.util.Scanner)
+numComments=2

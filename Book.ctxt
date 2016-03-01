@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=scanner
+comment0.target=void\ extractTokens(java.util.Scanner)
+comment0.text=\r\n\ This\ method\ is\ passed\ a\ scanner\ and\ sets\ the\ field\ variables\ as\ the\ tokens.\r\n
+comment1.params=
+comment1.target=void\ printDetails()
+comment1.text=\r\n\ This\ prints\ out\ the\ details\ of\ the\ object\r\n
+numComments=2

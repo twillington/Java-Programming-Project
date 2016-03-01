@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Test()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Test\r\n
+comment1.params=
+comment1.target=void\ testPrintAllDetailsSortedOnTitle()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ testUsersList()
+comment3.params=
+comment3.target=void\ testItemList()
+comment4.params=
+comment4.target=void\ testReadData()
+comment5.params=
+comment5.target=void\ testBorrowRequest()
+comment5.text=public\ void\ testPrintAllDetais()\r\n\ \ \ {\r\n\ \ \ \ \ \ \ \ //creates\ CD,\ DVD\ and\ Libery\ objects\ add\ the\ CD\ and\ DVD\ objects\ to\ itemslist\ and\ prints\ the\ details.\r\n\ \ \ \ \ \ \ \ CD\ cd\ \=\ new\ CD();\r\n\ \ \ \ \ \ \ \ DVD\ dvd\ \=\ new\ DVD();\r\n\ \ \ \ \ \ \ \ Library\ library\ \=\ new\ Library();\r\n\ \ \ \ \ \ \ \ library.storeLibraryItem(cd);\r\n\ \ \ \ \ \ \ \ library.storeLibraryItem(dvd);\r\n\ \ \ \ \ \ \ \ library.printAllItems();\ \ \ \ \ \ \ \r\n}*
+comment6.params=
+comment6.target=void\ testReturnRequest()
+numComments=7

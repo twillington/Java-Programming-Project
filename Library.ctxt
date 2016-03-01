@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Library()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Library\r\n
+comment1.params=y
+comment1.target=void\ storeLibraryItem(LibraryItem)
+comment1.text=\r\n\ This\ method\ is\ called\ when\ a\ new\ object\ is\ created\ that\ should\ be\ stored\ in\ the\ itemsList,\ the\ method\ is\ externally\ \r\n\ called\ and\ passed\ a\ self-referencing\ pointer.\ The\ object\ that\ called\ the\ method\ should\ be\ added\ to\ the\ ArrayList.\r\n
+comment10.params=itemCode
+comment10.target=LibraryItem\ getLibraryItem(java.lang.String)
+comment11.params=libraryID
+comment11.target=LibraryUser\ getLibraryUser(java.lang.String)
+comment2.params=y
+comment2.target=void\ storeLibraryUser(LibraryUser)
+comment2.text=\r\n\ This\ method\ is\ called\ when\ a\ new\ object\ is\ created\ that\ should\ be\ stored\ in\ the\ itemsList,\ the\ method\ is\ externally\ \r\n\ called\ and\ passed\ a\ self-referencing\ pointer.\ The\ object\ that\ called\ the\ method\ should\ be\ added\ to\ the\ ArrayList.\r\n
+comment3.params=
+comment3.target=int\ itemsListLength()
+comment4.params=
+comment4.target=int\ usersListLength()
+comment5.params=
+comment5.target=void\ readData()
+comment5.text=public\ void\ \ printAllItems()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ A\ for\ each\ loop\ which\ calls\ the\ printDetails()\ method\ in\ each\ object\r\n\ \ \ \ \ \ \ \ for\ (TypeKey\ itemCode\ \:\ itemMap.keySet())\r\n\ \ \ \ \ \ \ \ \ \ \ {\ String\ key\ \=\ itemCode.toString();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ String\ value\ \=\ itemMap.get(itemCode).printDetails();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println(key\ +\ "\ "\ +\ value);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ }\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ }\ \r\n\ \ \ \ \r\n\ \ \ \ public\ void\ printAllUsers()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ A\ for\ each\ loop\ which\ calls\ the\ printDetails()\ method\ in\ each\ object\r\n\ \ \ \ \ \ \ \ for\ (TypeKey\ libraryID\ \:\ userMap.keySet())\r\n\ \ \ \ \ \ \ \ \ \ \ {\ String\ key\ \=\ libraryID.toString();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ String\ value\ \=\ userMap.get(libraryID).printDetails();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println(key\ +\ "\ "\ +\ value);\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ }\r\n}*
+comment6.params=
+comment6.target=java.lang.String\ openFile()
+comment7.params=filename
+comment7.target=void\ readData(java.lang.String)
+comment8.params=libraryItem\ libraryUser
+comment8.target=void\ processBorrowRequest(LibraryItem,\ LibraryUser)
+comment9.params=itemCode\ libraryUser
+comment9.target=void\ processReturnRequest(java.lang.String,\ LibraryUser)
+numComments=12
